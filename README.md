@@ -1,2 +1,2 @@
-# alx-low_level_programming
-Low level programming language 
+#!/bin/bash
+Low level programming language readme file  
