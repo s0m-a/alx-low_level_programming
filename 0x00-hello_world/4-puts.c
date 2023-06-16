@@ -1,7 +1,7 @@
 #include<stdio.h>
-/**
- * this is a comment 
- * return (0) success
+/*
+ *main - writing exact sentence 
+ *Return: Returns 0
  */
 int main(void)
 {
