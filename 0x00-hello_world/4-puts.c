@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
-*main - writing exact sentence
+*main - start point
 *Description: 'the program's description' 
 *Return: Returns 0
 */
