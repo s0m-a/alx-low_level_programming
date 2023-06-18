@@ -8,11 +8,13 @@
  */
 int main(void)
 {
-char apl[26] = "abcdefghijklnmopqrstuvwxyz";
-for (int i = 0 ; i < 26 ; i++)
-if (i != 4 && i != 16)
+int i;
+for (i = 97; i < 123; i++)
 {
-putchar(apl[i]);
+if (i != 101 && i != 113)
+{
+putchar(i);
+}
 }
 putchar('\n');
 return (0);
