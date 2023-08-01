@@ -1,12 +1,10 @@
+#include <stdio.h>
+#include "lists.h"
 /**
  * print_listint - function that prints data in a linked list
  * @h : head of the link
  * Return: Returns ptr
 */
-
-
-#include <stdio.h>
-#include "lists.h"
 
 size_t print_listint (const listint_t *h)
 {
