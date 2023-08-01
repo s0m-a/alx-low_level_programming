@@ -4,7 +4,6 @@
  * @n: data to insert in the node
  * Return: pointer to the new node
 */
-#include <stdio.h>
 #include <stdlib.h>
 #include "lists.h"
 
@@ -15,8 +14,6 @@ listint_t *newNode;
 listint_t *temp;
 newNode = malloc(sizeof(listint_t));
 
-if (newNode == NULL)
-printf("no memory was allocated");
 newNode->n = n;
 newNode->next = NULL;
 if (*head == NULL)
