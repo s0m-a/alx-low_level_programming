@@ -8,7 +8,7 @@
 * @next: pointer address for the next node
 * Description:linked list node structure
 */
-typedef struct listint
+typedef struct listint_s
 {
 int n;
 struct listint *next;

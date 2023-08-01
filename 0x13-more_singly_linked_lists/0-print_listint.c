@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "lists.h"
 /**
  * print_listint - function that prints data in a linked list
@@ -13,8 +12,8 @@ size_t count = 0;
 while (h)
 {
 printf("%d \n", h->n);
-h = h->next;
 count++;
+h = h->next;
 }
 return (count);
 }
