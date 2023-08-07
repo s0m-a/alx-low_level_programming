@@ -9,7 +9,7 @@
 int create_file(const char *filename, char *text_content)
 {
 int length = 0;
-int write = 0;
+int wt  = 0;
 int fd = 0;
 if (filename == NULL)
 {
@@ -22,7 +22,8 @@ for (length = 0; text_content[length];)
 length++;
 }
 fd = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
-write =  write(fd, text_content, length);
+wt =  write(fd, text_content, length);
+if (fd == -1 || wt == -1)
 return (-1);
 close(fd);
 return (1);
