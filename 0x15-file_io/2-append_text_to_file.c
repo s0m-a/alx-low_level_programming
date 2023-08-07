@@ -9,8 +9,8 @@
 int append_text_to_file(const char *filename, char *text_content)
 
 {
-int open = 0;
-lnt write = 0;
+int opn = 0;
+lnt wrt = 0;
 int length = 0;
 if (filename == NULL)
 {
@@ -21,12 +21,12 @@ if (text_content != NULL)
 for (length = 0; text_content[length];)
 length++;
 }
-open = open(filename, O_WRONLY | O_APPEND);
-write = write(open, text_content, length);
-if (open == -1 || write == -1)
+opn = open(filename, O_WRONLY | O_APPEND);
+wrt = write(opn, text_content, length);
+if (opn == -1 || wrt == -1)
 {
 return (-1);
 }
-close(open);
+close(opn);
 return (1);
 }
