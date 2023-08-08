@@ -6,8 +6,9 @@
 void print_binary(unsigned long int n)
 {
 int count = 0;
+int i =0;
 unsigned long int present;
-for (int i = 63; i >= 0; i--)
+for (i = 63; i >= 0; i--)
 {
 present = n >> i;
 if (present & 1)
