@@ -26,7 +26,7 @@ unsigned long int x;
 	for (x = 0; x < size; x++)
 		arr[x] = NULL;
 
-	table->arr = arr;
+	table->array = arr;
 	table->size = size;
 
 	return (table);
