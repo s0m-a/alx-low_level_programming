@@ -4,7 +4,7 @@
  * linear_search - linear search function
  * @array:the array
  * @size: size of elements in the array
- * @valuevalue to be searched
+ * @value:value to be searched
  * Return: Value, or -1 if input is  not present
  */
 
